@@ -1,3 +1,4 @@
+#include "gpfs.h"
 #include "gpfs_fcntl.h"
 
 int gpfs_getacl(const char *pathname, int flags, void *acl) {
